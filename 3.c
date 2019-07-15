@@ -23,9 +23,10 @@ int main()
 	scanf("%d",&element);
 	for (i = 0; i < n; ++i)
 	{
-		array[i] == element;
+		if(array[i] == element){
+
 		printf("element found\n");
-		break;
+		break;}
 	}
 	free(array);
 	return 0;
