@@ -16,8 +16,8 @@ int main()
 		scanf("%d",array+i);
 		
 	}
-	g= *(array + 1);
-	for (i = 1; i < n; ++i)
+	g= *(array);
+		for (i = 1; i < n; ++i)
 	{
 		if (array[i]>g)
 		{
