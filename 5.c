@@ -22,8 +22,7 @@ int main()
 		
 	}
 
-	sort(array,n);
-	 output(array,n);
+	
 }
 void sort(int *a,int n)
 {
